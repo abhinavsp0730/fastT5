@@ -28,7 +28,7 @@ setuptools.setup(
     install_requires=[
         "torch==1.7.1",
         "onnx",
-        "onnxruntime>=1.7.0",
+        "onnxruntime-gpu>=1.7.0",
         "transformers>=4.2.2",
         "progress>=1.5",
         "sentencepiece"
